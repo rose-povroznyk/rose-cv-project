@@ -31,6 +31,11 @@ const SideBar = () => {
               rosepovroznyk@gmail.com
             </a>
           </li>
+          <li key='github' className={styles.item}>
+            <a href='https://github.com/rose-povroznyk' className={styles.link}>
+              GitHub
+            </a>
+          </li>
         </ul>
       </section>
 
