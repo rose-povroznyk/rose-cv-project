@@ -20,7 +20,11 @@ export const projectsDataEng = [
     'Explore-the-world-project',
     'HTML, CSS',
   ],
-  ['#', 'Fahrenheit-to-Celsius-project', 'HTML, CSS, Js'],
+  [
+    'src/projects/fahrenheit-to-celsius-project',
+    'Fahrenheit-to-Celsius-project',
+    'HTML, CSS, Js',
+  ],
   ['#', 'FizzBuzz-project', 'HTML, CSS, JS'],
   ['#', 'ToDo-project', 'HTML, CSS, JS'],
   ['#', 'Matrix-project', 'HTML, Sass, JS, React'],
