@@ -15,7 +15,11 @@ export const projectsDataEng = [
     'Store-game-project',
     'HTML, CSS | + CSS Grid Layout',
   ],
-  ['#', 'Explore-the-world-project', 'HTML, CSS'],
+  [
+    'src/projects/explore-the-world-project',
+    'Explore-the-world-project',
+    'HTML, CSS',
+  ],
   ['#', 'Fahrenheit-to-Celsius-project', 'HTML, CSS, Js'],
   ['#', 'FizzBuzz-project', 'HTML, CSS, JS'],
   ['#', 'ToDo-project', 'HTML, CSS, JS'],

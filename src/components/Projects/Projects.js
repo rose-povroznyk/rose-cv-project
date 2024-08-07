@@ -8,7 +8,7 @@ const Projects = () => {
   const text = isEng ? projectsDataEng : projectsDataUa;
   const data = text.map(([url, title, technologies], index) => (
     <li key={index} className={styles.item}>
-      <a href={url} className={styles.link}>
+      <a href={url} className={styles.link} target='_blank'>
         {title}
       </a>
       <span className={styles.span}>{technologies}</span>
