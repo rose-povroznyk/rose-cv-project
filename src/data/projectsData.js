@@ -21,7 +21,7 @@ export const projectsDataEng = [
     'HTML, CSS',
   ],
   [
-    'src/projects/fahrenheit-to-celsius-project',
+    'src/projects/fahrenheit-to-celsius-project/index.js',
     'Fahrenheit-to-Celsius-project',
     'HTML, CSS, Js',
   ],
