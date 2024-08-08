@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rose-cv-project/static/css/main.36d5f52a.css",
-    "main.js": "/rose-cv-project/static/js/main.e4549517.js",
+    "main.css": "/rose-cv-project/static/css/main.b650dbb4.css",
+    "main.js": "/rose-cv-project/static/js/main.4966f038.js",
     "static/media/galaxy_bg.png": "/rose-cv-project/static/media/galaxy_bg.f1e495573062f1ff3f7c.png",
     "static/media/photo1.jpg": "/rose-cv-project/static/media/photo1.e9a12c54dcc19f7b0fd8.jpg",
     "static/media/outline.png": "/rose-cv-project/static/media/outline.b6265827fcb05de81f16.png",
     "index.html": "/rose-cv-project/index.html",
-    "main.36d5f52a.css.map": "/rose-cv-project/static/css/main.36d5f52a.css.map",
-    "main.e4549517.js.map": "/rose-cv-project/static/js/main.e4549517.js.map"
+    "main.b650dbb4.css.map": "/rose-cv-project/static/css/main.b650dbb4.css.map",
+    "main.4966f038.js.map": "/rose-cv-project/static/js/main.4966f038.js.map"
   },
   "entrypoints": [
-    "static/css/main.36d5f52a.css",
-    "static/js/main.e4549517.js"
+    "static/css/main.b650dbb4.css",
+    "static/js/main.4966f038.js"
   ]
 }
