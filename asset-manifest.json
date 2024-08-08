@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rose-cv-project/static/css/main.6bd73ba7.css",
+    "main.css": "/rose-cv-project/static/css/main.cc80211e.css",
     "main.js": "/rose-cv-project/static/js/main.c058f8b9.js",
     "static/media/galaxy_bg.png": "/rose-cv-project/static/media/galaxy_bg.f1e495573062f1ff3f7c.png",
     "static/media/photo1.jpg": "/rose-cv-project/static/media/photo1.e9a12c54dcc19f7b0fd8.jpg",
     "static/media/outline.png": "/rose-cv-project/static/media/outline.b6265827fcb05de81f16.png",
     "index.html": "/rose-cv-project/index.html",
-    "main.6bd73ba7.css.map": "/rose-cv-project/static/css/main.6bd73ba7.css.map",
+    "main.cc80211e.css.map": "/rose-cv-project/static/css/main.cc80211e.css.map",
     "main.c058f8b9.js.map": "/rose-cv-project/static/js/main.c058f8b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd73ba7.css",
+    "static/css/main.cc80211e.css",
     "static/js/main.c058f8b9.js"
   ]
 }
