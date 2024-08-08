@@ -27,7 +27,7 @@ export const projectsDataEng = [
   [
     'https://pas-une-mowgli.github.io/fahrenheit-to-celsius-project/',
     'Fahrenheit-to-Celsius-project',
-    'HTML, CSS, Js',
+    'HTML, CSS, Js + please, try enter 451 :)',
   ],
   [
     'https://pas-une-mowgli.github.io/fizzbuzz-project/',
@@ -89,7 +89,7 @@ export const projectsDataUa = [
   [
     'https://pas-une-mowgli.github.io/fahrenheit-to-celsius-project/',
     'Fahrenheit-to-Celsius-project',
-    'HTML, CSS, Js',
+    'HTML, CSS, Js + спробуйте ввести 451, будь ласка :) ',
   ],
   [
     'https://pas-une-mowgli.github.io/fizzbuzz-project/',
