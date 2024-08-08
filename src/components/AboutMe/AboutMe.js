@@ -20,6 +20,7 @@ const AboutMe = () => {
       );
     } else if (paragraph.includes('кімнату')) {
       const parts = paragraph.split('кімнату');
+
       return (
         <p key={index}>
           {parts[0]}

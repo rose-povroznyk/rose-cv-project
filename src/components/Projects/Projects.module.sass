@@ -1,22 +1,23 @@
 @import '../../styles/_templates'
+@import '../../styles/_variables'
 
 .container
     padding: 0 0 5% 0
     ol
         display: flex
         flex-direction: column
-        gap: 5px    
+        gap: .5rem
 .title
     @extend %title
 
 .item
     @extend %item
     span
-        color: #595959 
+        color: $grey-color
 
 .link
-    @extend %link    
-    color: #03a688
+    @extend %link
+    color: $main-green-color
 
 .span
-    font-size: 1.2rem    
+    font-size: 1.2rem

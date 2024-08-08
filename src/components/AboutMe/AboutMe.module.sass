@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
 @import '../../styles/_templates'
+@import '../../styles/_variables'
+@import '../../styles/_animation'
+
     
 .container
     padding: 5% 0
-    font-family: "IBM Plex Mono", monospace
-
 
 .title
     @extend %title
     display: flex
     align-items: baseline
+
     @media (max-width: 1024px)
-        font-size: 18px
+        font-size: 1.8rem
         flex-direction: column
 
 .heading
     font-weight: 700
-    font-size: 45px
-    // line-height: 55px
-    color: #03a688
-    margin: 0 0 28px 0
+    font-size: 4.5rem
+    color: $main-green-color
+    margin: 0 0 2.8rem 0
     background-clip: text
-    -webkit-background-clip: text    
+    -webkit-background-clip: text
     color: transparent
     background-size: 200% 200%
     animation: moveBackground 10s linear infinite
+
     @media (max-width: 768px)
         font-size: 3.5rem
 
 .main-descr
     display: flex
     flex-direction: column
-    gap: 10px
-    font-size: 16px
-    line-height: 24px
-    color: #595959  
+    gap: 1rem
+    font-size: 1.6rem
+    line-height: 2.4rem
+    color: $grey-color 
 
 .animated
     display: inline-block
@@ -45,6 +46,7 @@
     padding-left: .7rem 
     overflow: hidden
     animation: typing 8s steps(30) infinite, blink .5s step-end infinite alternate
+    
     @media (max-width: 1024px)
       padding-left: 0
     @media (max-width: 900px)
@@ -53,21 +55,4 @@
         animation: none
         border-right: none   
 
-@keyframes typing 
-  from 
-    width: 0
-  
 
-@keyframes blink 
-  50% 
-    border-color: transparent
-
-@keyframes moveBackground
-  0%
-    background-position: 0% 0%
-  50%
-    background-position: 100% 100%
-  100% 
-    background-position: 0% 0%
-  
-   

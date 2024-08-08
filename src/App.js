@@ -1,8 +1,8 @@
-import { LanguageProvider } from './contests/LanguageContest';
+import { useEffect } from 'react';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { LanguageProvider } from './contests/LanguageContest';
 import MainPage from './pages/MainPage/MainPage';
-import { useEffect } from 'react';
 import styles from './App.module.sass';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
   useEffect(() => {
     notify();
   }, []);
+
   return (
     <LanguageProvider>
       <MainPage />
