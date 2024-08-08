@@ -27,12 +27,20 @@ const SideBar = () => {
         <h3 className={styles.title}>{isEng ? 'Contacts' : 'Контакти:'}</h3>
         <ul>
           <li key='mail' className={styles.item}>
-            <a href='mailto:rosepovroznyk@gmail.com' className={styles.link}>
+            <a
+              href='mailto:rosepovroznyk@gmail.com'
+              className={styles.link}
+              target='_blank'
+            >
               rosepovroznyk@gmail.com
             </a>
           </li>
           <li key='github' className={styles.item}>
-            <a href='https://github.com/rose-povroznyk' className={styles.link}>
+            <a
+              href='https://github.com/rose-povroznyk'
+              className={styles.link}
+              target='_blank'
+            >
               GitHub
             </a>
           </li>
@@ -46,9 +54,7 @@ const SideBar = () => {
         <ul>
           {techSkills.map((item, index) => (
             <li key={index} className={styles.item}>
-              <a href={item} className={styles.link}>
-                {item}
-              </a>
+              <span className={styles.link}>{item}</span>
             </li>
           ))}
         </ul>
@@ -61,9 +67,9 @@ const SideBar = () => {
         <ul>
           {softSkills.map((item, index) => (
             <li key={index} className={styles.item}>
-              <a href={item} className={styles.link}>
+              <span href={item} className={styles.link}>
                 {item}
-              </a>
+              </span>
             </li>
           ))}
         </ul>
