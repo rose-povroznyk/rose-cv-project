@@ -9,6 +9,7 @@ export const techSkills = [
   'PostgreSQL',
   'MongoDB',
   'Docker',
+  'TypeScript (started)',
   'English B2',
   'Polski B2',
   'Spanish A1',

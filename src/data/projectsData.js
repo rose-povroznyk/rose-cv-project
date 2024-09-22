@@ -47,7 +47,7 @@ export const projectsDataEng = [
   [
     'https://udk-bbk-convector-online.netlify.app/',
     'UDK-project',
-    'HTML, Sass, JS, React',
+    'HTML, Sass, JS, React | + non-commercial project for libraries',
   ],
   [
     'https://the-lady-or-the-tiger-game.netlify.app/',
@@ -109,7 +109,7 @@ export const projectsDataUa = [
   [
     'https://udk-bbk-convector-online.netlify.app/',
     'UDK-project',
-    'HTML, Sass, JS, React',
+    'HTML, Sass, JS, React | + некомерційний проєкт для бібліотек',
   ],
   [
     'https://the-lady-or-the-tiger-game.netlify.app/',
