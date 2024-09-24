@@ -26,11 +26,23 @@ const SideBar = () => {
       <section className={styles.container}>
         <h3 className={styles.title}>{isEng ? 'Contacts' : 'Контакти:'}</h3>
         <ul>
+          <li key='phone' className={styles.item}>
+            <a
+              href='tel:+380966090048'
+              className={styles.link}
+              target='_blank'
+              rel='noreferrer'
+            >
+              +38(096)6090048
+            </a>
+          </li>
+
           <li key='mail' className={styles.item}>
             <a
               href='mailto:rosepovroznyk@gmail.com'
               className={styles.link}
               target='_blank'
+              rel='noreferrer'
             >
               rosepovroznyk@gmail.com
             </a>
@@ -40,6 +52,7 @@ const SideBar = () => {
               href='https://github.com/rose-povroznyk'
               className={styles.link}
               target='_blank'
+              rel='noreferrer'
             >
               GitHub
             </a>
