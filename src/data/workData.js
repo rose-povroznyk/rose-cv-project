@@ -1,5 +1,5 @@
 export const workDataEng = [
-  [' Full Stack JS Developer', '2024 | Ukraine', 'Loading ... :)'],
+  [' Full Stack JS Developer', '2019 | Ukraine', 'Loading ... :)'],
   [
     'Librarian/Polish language teacher | School #5',
     'January 2013 - up to now | Ternopil',
@@ -8,7 +8,7 @@ export const workDataEng = [
 ];
 
 export const workDataUa = [
-  [' Full Stack JS Developer', '2024 | Україна', 'Завантаження ... :)'],
+  [' Full Stack JS Developer', '2019 | Україна', 'Завантаження ... :)'],
   [
     'Бібліотекар/вчитель польської мови | Школа #5',
     'Січень 2013 - до цього часу | Тернопіль',
