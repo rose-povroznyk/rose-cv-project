@@ -2,7 +2,7 @@ export const educationDataEng = [
   [
     'Training center by Freshcode',
     'Full Stack JS Developer',
-    'November 2023 - August 2024 | remote',
+    'November 2018 - August 2019 | remote',
   ],
   [
     'Volodymyr Hnatiuk National Pedagogical University',
